@@ -13,7 +13,7 @@ import requests
 st.set_page_config(page_title="Stock Price Predictor", layout="wide")
 
 # Alpha Vantage configuration
-ALPHA_VANTAGE_API_KEY = st.secrets.get("ALPHA_VANTAGE_API_KEY", "XJQ64UB4W0F69BQ4")  # Replace with your API key or use Streamlit secrets
+ALPHA_VANTAGE_API_KEY = st.secrets.get("ALPHA_VANTAGE_API_KEY", "YOUR_KEY")  # Replace with your API key or use Streamlit secrets
 
 @st.cache_data(ttl=3600)
 def search_company(query: str) -> list:
