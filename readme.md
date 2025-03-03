@@ -5,7 +5,8 @@ This is a Stock Price Prediction Web App built with Streamlit, TensorFlow, Panda
 It fetches historical stock data using the **Alpha Vantage API**, trains an **LSTM model**, and forecasts future stock prices.
 
 
-🚀 **Features**
+🚀 Features
+
 ✅ Search for any company by name or ticker  
 ✅ Fetch real-time stock price data using Alpha Vantage  
 ✅ Train an **LSTM model** with historical stock data with preferred no of days
